@@ -1,6 +1,15 @@
 version: '2'
 
 services:
+    gunicorn:
+        image: server-py
+        ports:
+            - "8000:8000"
+
+    node:
+        image: server-js
+        ports:
+            - "3000:3000"
     nginx:
         image: nginx:1.15.8
         ports:
