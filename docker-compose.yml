@@ -10,6 +10,7 @@ services:
         image: server-js
         expose:
             - "3000"
+            
     nginx:
         image: nginx:1.15.8
         ports:
