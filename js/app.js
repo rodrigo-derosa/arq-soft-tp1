@@ -30,7 +30,7 @@ app.get("/loop", (request, response) => {
         }
         for (let j = 0; j < i; j++) array = array.concat(j);
         let length = array.length;
-        for (let k = 0; k < length; k++) console.log(array[i]);
+        for (let k = 0; k < length; k++) array[i] = array[i]**2;
     }
     response.status(200).send("Heavy processing Node.js - " + message);
 });

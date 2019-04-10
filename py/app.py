@@ -29,8 +29,8 @@ def loop():
             break
         for j in range(i):
             array.append(j)
-        for x in array:
-            print(f'Value: {x}')
+        for k in range(len(array)):
+            array[k] *= array[k]
     return f'Heavy processing Python - {message}'
 
 

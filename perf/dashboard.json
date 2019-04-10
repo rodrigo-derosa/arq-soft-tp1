@@ -386,15 +386,15 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "asPercent(stats.gauges.cadvisor.1c19-tp-1_node_1.memory_usage, 1952000000)",
+          "alias": "asPercent(stats.gauges.cadvisor.arq-soft-tp1_node_1.memory_usage, 1952000000)",
           "yaxis": 1
         },
         {
-          "alias": "stats.gauges.cadvisor.1c19-tp-1_gunicorn_1.rx_errors",
+          "alias": "stats.gauges.cadvisor.arq-soft-tp1_gunicorn_1.rx_errors",
           "yaxis": 2
         },
         {
-          "alias": "stats.gauges.cadvisor.1c19-tp-1_gunicorn_1.tx_errors",
+          "alias": "stats.gauges.cadvisor.arq-soft-tp1_gunicorn_1.tx_errors",
           "yaxis": 2
         }
       ],
@@ -495,8 +495,8 @@
       {
         "allValue": null,
         "current": {
-          "text": "1c19-tp-1_node_1",
-          "value": "1c19-tp-1_node_1"
+          "text": "arq-soft-tp1_node_1",
+          "value": "arq-soft-tp1_node_1"
         },
         "hide": 0,
         "includeAll": false,
@@ -506,51 +506,51 @@
         "options": [
           {
             "selected": true,
-            "text": "1c19-tp-1_node_1",
-            "value": "1c19-tp-1_node_1"
+            "text": "arq-soft-tp1_node_1",
+            "value": "arq-soft-tp1_node_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_node_2",
-            "value": "1c19-tp-1_node_2"
+            "text": "arq-soft-tp1_node_2",
+            "value": "arq-soft-tp1_node_2"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_node_3",
-            "value": "1c19-tp-1_node_3"
+            "text": "arq-soft-tp1_node_3",
+            "value": "arq-soft-tp1_node_3"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_cadvisor_1",
-            "value": "1c19-tp-1_cadvisor_1"
+            "text": "arq-soft-tp1_cadvisor_1",
+            "value": "arq-soft-tp1_cadvisor_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_flask_1",
-            "value": "1c19-tp-1_flask_1"
+            "text": "arq-soft-tp1_flask_1",
+            "value": "arq-soft-tp1_flask_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_grafana_1",
-            "value": "1c19-tp-1_grafana_1"
+            "text": "arq-soft-tp1_grafana_1",
+            "value": "arq-soft-tp1_grafana_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_graphite_1",
-            "value": "1c19-tp-1_graphite_1"
+            "text": "arq-soft-tp1_graphite_1",
+            "value": "arq-soft-tp1_graphite_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_gunicorn_1",
-            "value": "1c19-tp-1_gunicorn_1"
+            "text": "arq-soft-tp1_gunicorn_1",
+            "value": "arq-soft-tp1_gunicorn_1"
           },
           {
             "selected": false,
-            "text": "1c19-tp-1_nginx_1",
-            "value": "1c19-tp-1_nginx_1"
+            "text": "arq-soft-tp1_nginx_1",
+            "value": "arq-soft-tp1_nginx_1"
           }
         ],
-        "query": "1c19-tp-1_node_1, 1c19-tp-1_node_2, 1c19-tp-1_node_3, 1c19-tp-1_cadvisor_1, 1c19-tp-1_flask_1, 1c19-tp-1_grafana_1, 1c19-tp-1_graphite_1, 1c19-tp-1_gunicorn_1, 1c19-tp-1_nginx_1",
+        "query": "arq-soft-tp1_node_1, arq-soft-tp1_node_2, arq-soft-tp1_node_3, arq-soft-tp1_cadvisor_1, arq-soft-tp1_flask_1, arq-soft-tp1_grafana_1, arq-soft-tp1_graphite_1, arq-soft-tp1_gunicorn_1, arq-soft-tp1_nginx_1",
         "type": "custom"
       }
     ]
